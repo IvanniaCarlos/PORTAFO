@@ -1,43 +1,115 @@
 * {
     margin: 0;
     padding: 0;
-  }
-  body {
-    background: rgb(247, 253, 255);
-  }
-  ul {
+}
+
+body {
+    background: rgb(230, 219, 211);
+}
+
+ul {
     display: flex;
     list-style: none;
-  }
-  a {
+}
+
+a {
     text-decoration: none;
     display: block;
     padding: 20px 30px;
     background: rgb(184, 197, 206);
     color: rgb(15, 36, 44);
     font-weight: bold;
-  }
-  a:hover {
+}
+
+a:hover {
     background: rgb(157, 172, 184);
-  }
-  h3 {
-    background: rgb(45, 123, 196);
-    padding: 20px;
-  }
-  
-  main{
-      margin-top: 60px;
-  }
-  header {
+}
+
+main {
+
+    
+        margin-top: 60px; /* Mantiene el espacio entre el nav y el contenido */
+        padding-top: 60px; /* Evita que el contenido se solape con el nav */
+    
+    
+}
+
+header {
     width: 100%;
     background: rgb(184, 197, 206);
     position: fixed;
     top: 0;
-  }
-  .item{
-      scroll-margin-top: 8ex;
-  }
-  html{
-      scroll-behavior: smooth;
-  }
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(230, 219, 211);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    padding: 20px 30px;
+    background: rgb(184, 197, 206);
+    color: rgb(15, 36, 44);
+    font-weight: bold;
+}
+
+a:hover {
+    background: rgb(157, 172, 184);
+}
+
+main {
+    margin-top: 60px;
+}
+
+header {
+    width: 100%;
+    background: rgb(184, 197, 206);
+    position: fixed;
+    top: 0;
+}
+
+.item {
+    border: 1px solid black;
+    padding: 6px;
+    margin-bottom: 20px; /* Espacio entre cada elemento */
+}
+
+.card-img-top {
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    border: 10px solid rgb(20, 19, 19); /* Borde blanco */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.card-img-top {
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    border: 10px solid rgb(20, 19, 19); /* Borde blanco */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+  
+  
+  
+  
+    
+  
   
